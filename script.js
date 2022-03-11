@@ -42,5 +42,7 @@ function newFortune () {
 
 function newHTML () {
     document.getElementById('fortune').innerHTML = newFortune();
+    document.getElementById("button").disabled = true;
+    document.getElementById('button').innerHTML = "Your fortune for the day is:"
     }
 
